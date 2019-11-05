@@ -7,8 +7,8 @@ int main (void);
     {
         m++;
     }
-    printf(%u\n",m - 1);
-    printf(%d\n :",bitcount(1));
+    printf("%u\n",m - 1);
+    printf("%d\n :",bitcount(1));
     return 0;
 }
     int bitcount (unsigned x)
