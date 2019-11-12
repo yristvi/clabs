@@ -11,7 +11,7 @@ int main()
     printf("celsius\fahr\n");
     while (celsius<=upper){
         fahr = (9.0*celsius)/5.0+32.0;
-        printf("%3.0f%6.1f\n",celsius,fahr);
+        printf("%d\t%d\n",celsius,fahr);
         celsius=celsius+step;
     }
 }
